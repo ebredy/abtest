@@ -42,3 +42,9 @@ $headliner = $this->abtest->getVariation('headliner');
   
 ```
 
+<h2>To Do</h2>
+<ul>
+<li>Allow the ability to pass options field</li>
+<li>Allow the ability to retrieve seed</li>
+<li>Allow the ability to clear See value saved in session</li>
+</ul>
