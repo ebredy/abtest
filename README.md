@@ -7,31 +7,31 @@ Installing this librarry requires that you update your composer.json as part of 
 </p>
 <h2>Usage</2>
 <p>
-    /*
-     * usage:
-     *                 $tests = array(
-     *                               'price' => array(
-     *                                                   '10'=>10
-     *                                                  ,'20'=>10
-     *                                                  ,'30'=>10
-     *                                                  ,'40'=>10
-     *                                                  ,'50'=>10
-     *                                                  ,'60'=>10
-     *                                                  ,'70'=>10
-     *                                                  ,'80'=>10
-     *                                                  ,'90'=>10
-     *                            )
-     *                            
-     *               
-     *           );
-     *           $this->load->library('abtest',$tests);
-     *           
-     *            
-     *                               $price= $this->abtest->getVariation('price')
-     *                    
-     * 
-     * 
-     * 
-     * 
-     */
+    
+     '''
+                     $tests = array(
+                                  'price' => array(
+                                                       '10'=>10
+                                                      ,'20'=>10
+                                                      ,'30'=>10
+                                                      ,'40'=>10
+                                                      ,'50'=>10
+                                                       ,'60'=>10
+                                                       ,'70'=>10
+                                                       ,'80'=>10
+                                                       ,'90'=>10
+                               )
+                                
+                   
+               );
+               $this->load->library('abtest',$tests);
+               
+                
+                                   $price= $this->abtest->getVariation('price')
+                        
+     
+     
+     
+     
+    '''
 </p>
