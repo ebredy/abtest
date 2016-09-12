@@ -5,6 +5,13 @@
 <p>
 Installing this librarry requires that you update your composer.json as part of the require as "namshi/ab": "1.0.*" and run the composer update command. 
 </p>
+<h2>To Do</h2>
+<ul>
+<li>Allow the ability to pass options field</li>
+<li>Allow the ability to retrieve seed</li>
+<li>Allow the ability to clear See value saved in session</li>
+</ul>
+
 <h2>Usage</2>
 
     
@@ -42,9 +49,4 @@ $headliner = $this->abtest->getVariation('headliner');
   
 ```
 
-<h2>To Do</h2>
-<ul>
-<li>Allow the ability to pass options field</li>
-<li>Allow the ability to retrieve seed</li>
-<li>Allow the ability to clear See value saved in session</li>
-</ul>
+
