@@ -8,7 +8,7 @@ Installing this librarry requires that you update your composer.json as part of 
 <h2>Usage</2>
 <p>
     
-     '''
+```
                      $tests = array(
                                   'price' => array(
                                                        '10'=>10
@@ -33,5 +33,5 @@ Installing this librarry requires that you update your composer.json as part of 
      
      
      
-    '''
+```
 </p>
