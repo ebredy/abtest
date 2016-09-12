@@ -32,7 +32,9 @@ Installing this librarry requires that you update your composer.json as part of 
                $this->load->library('abtest',$tests);
                
                 
-               $price= $this->abtest->getVariation('price')
+               $price= $this->abtest->getVariation('price');
+               
+               $headliner = $this->abtest->getVariation('headliner');
                         
      
      
