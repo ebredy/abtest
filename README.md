@@ -9,7 +9,7 @@ Installing this librarry requires that you update your composer.json as part of 
 <ul>
 <li>Allow the ability to pass options field</li>
 <li>Allow the ability to retrieve seed</li>
-<li>Allow the ability to clear See value saved in session</li>
+<li>Allow the ability to clear seed value saved in session</li>
 </ul>
 
 <h2>Usage</2>
