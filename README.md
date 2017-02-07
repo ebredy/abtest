@@ -45,7 +45,45 @@ $headliner = $this->abtest->getVariation('headliner');
                         
      
      
-     
+  $tests = [  'TEST_PAGES'=>
+                [ 
+                    'UPFRONT_MOBILE' => [  '5-3mrf'=>10 // run template 5-mrf 10% of the time
+
+                                            ,'10-6mrf'=> 90 //run template 90% of the time
+                                        ]
+
+                    ,'UPSELL_MOBILE' => [ '5-3mrf'=>10 // run template 5-mrf 10% of the time
+
+                                          ,'10-6mrf'=> 90 //run template 90% of the time
+                                        ]
+                    ,'UPFRONT_DESKTOP' => [ '5-3mrf'=>10 // run template 5-mrf 10% of the time
+
+                                      ,'10-6mrf'=> 90 //run template 90% of the time
+                                ]
+
+                    ,'UPSELL_DESKTOP' => [ '5-3mrf'=>10 // run template 5-mrf 10% of the time
+
+                                      ,'10-6mrf'=> 90 //run template 90% of the time
+                                 ]
+                ]
+            ,'TEST_PAGE_META'=>                       
+                    [ 
+                        '5-3mrf'=> [
+                            'traffic_percentage'=>10
+                            ,'template_folder'=>  '5-3mrf'
+                            ,'TYPE'=> 'UPFRONT'
+                            ,'PLATFORM'=>'DESKTOP'
+                            ,'web_promotion_id'=> 2468097531
+                        ]
+                        ,'10-6mrf' => [
+                            'traffic_percentage'=>90
+                            ,'template_folder'=>  '10-6mrf'
+                            , 'TYPE'=> 'UPFRONT'
+                            ,'PLATFORM'=>'DESKTOP'
+                            ,'web_promotion_id'=> 1357908642
+                        ]
+                    ]
+    ];     
   
 ```
 
